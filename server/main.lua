@@ -102,7 +102,7 @@ RegisterNetEvent('prison:server:JailAlarm', function()
     local middle = vec2(Config.Locations["middle"].coords.x, Config.Locations["middle"].coords.y)
     if #(coords.xy - middle) < 200 then return error('"prison:server:JailAlarm" triggered whilst the player was too close to the prison, cancelled event') end
     TriggerClientEvent('prison:client:JailAlarm', -1, true)
-    SetTimeout(5 * 60000, function()
+    SetTimeout(10 * 60000, function()
         TriggerClientEvent('prison:client:JailAlarm', -1, false)
     end)
 end)
