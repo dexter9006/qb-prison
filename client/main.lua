@@ -147,7 +147,7 @@ RegisterNetEvent('QBCore:Client:OnPlayerLoaded', function()
 				end
 			}
 		},
-		distance = 2.5,
+		distance = 4.5,
 	})
 end)
 
@@ -217,7 +217,7 @@ AddEventHandler('onResourceStart', function(resource)
 				end
 			}
 		},
-		distance = 2.5,
+		distance = 4.5,
 	})
 end)
 
