@@ -21,7 +21,7 @@ if not isServer then
 end
 
 Config.Jobs = {
-    ["electrician"] = "Electrician"
+    ["electrician"] = "Electricien"
 }
 
 Config.Uniforms = {
@@ -32,6 +32,11 @@ Config.Uniforms = {
             ['arms'] = { item = 19, texture = 0 },
             ['pants'] = { item = 3, texture = 7 },
             ['shoes'] = { item = 1, texture = 0 },
+            ["hat"] = { item = -1, texture = 0},
+            ["glass"] = {item = 0, texture = 0},
+            ["ear"] = {item = 0, texture = 0},
+            ["watches"] = {item = -1, texture = 0},
+            ["bracelets"] = {item = -1, texture = 0}
         }
     },
     ['female'] = {
@@ -41,6 +46,11 @@ Config.Uniforms = {
             ['arms'] = { item = 0, texture = 0 },
             ['pants'] = { item = 0, texture = 12 },
             ['shoes'] = { item = 1, texture = 0 },
+            ["hat"] = { item = -1, texture = 0},
+            ["glass"] = {item = 0, texture = 0},
+            ["ear"] = {item = 0, texture = 0},
+            ["watches"] = {item = -1, texture = 0},
+            ["bracelets"] = {item = -1, texture = 0}
         }
     },
 }
